@@ -13,6 +13,7 @@
   "license": "MIT",
   "files": [
     "node",
-    "web"
+    "web",
+    "README.md"
   ]
 }
