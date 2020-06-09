@@ -14,3 +14,4 @@ console.log('igroneExp', file(filePath, { igroneExp: new RegExp(/.*(c).*/g), loo
 console.log('igroneArr', file(filePath, { igroneArr: ['a.js', 'e.c', 'c'], loop: true }));
 console.log('igroneEmptyDir', file(filePath, { igroneEmptyDir: true }));
 console.log('json', file(filePath, { json: false }));
+console.log('loop', file(filePath, { loop: true, igroneExp: /(a)/, exp: /(c)$/ }));

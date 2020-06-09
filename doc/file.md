@@ -25,6 +25,15 @@ file(path, [ops]);
 
 非必传，各种配置项。
 
+#### exp
+
+``type: RegExp``
+``defualt: null``
+
+输出与正则匹配的文件与文件夹。优先级低于所有igrone规则。
+
+> 与loop同用时，如果匹配的文件夹下有children，则匹配的文件夹不会加入输出。只输出最底层匹配的文件与文件夹。
+
 #### loop
 
 ``type: Bool``

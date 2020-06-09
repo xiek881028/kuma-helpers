@@ -1,6 +1,6 @@
 {
   "name": "kuma-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "kuma自用工具集",
   "keywords": [
     "helpers",
@@ -9,8 +9,16 @@
   "dependencies": {
     "fs-extra": "^8.1.0"
   },
-  "author": "xiek881028",
+  "author": {
+    "name": "xiek881028",
+    "email": "285985285@qq.com"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/xiek881028/kuma-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiek881028/kuma-helpers.git"
+  },
   "files": [
     "node",
     "web",
