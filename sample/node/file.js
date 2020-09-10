@@ -2,9 +2,9 @@ const path = require('path');
 // const index = require('../node');
 // console.log('index.file: ', index.file);
 
-const file = require('../node/file');
+const file = require('../../node/file');
 // console.log('file: ', file);
-const filePath = path.join(__dirname, '../', 'temp');
+const filePath = path.join(__dirname, '../../', 'temp');
 
 console.log('default', file(filePath));
 console.log('loop', file(filePath, { loop: true }));

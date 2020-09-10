@@ -32,4 +32,7 @@ const file = require('kuma-helpers/node/file');
 
 ## 组件文档
 
-- [file](doc/file.md) 一个获取文件的方法
+- [file](doc/file.md) 获取文件树
+- [permission](doc/permission.md) 判断用户权限
+
+## 更新日志
