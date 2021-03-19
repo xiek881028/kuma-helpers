@@ -35,5 +35,3 @@ const file = require('kuma-helpers/node/file');
 - [file](doc/file.md) 获取文件树
 - [permission](doc/permission.md) 判断用户权限
 - [storageAvailable](doc/storageAvailable.md) 判断浏览器是否支持storage
-
-## 更新日志
